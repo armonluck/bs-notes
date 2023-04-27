@@ -18,7 +18,7 @@ Journal of notes during the journey to become a software developer in the BrainS
 - [System 5 - Advanced JavaScript](./content/advanced-javascript/system5.md)
 - [System 6 - React](./content/react/system6.md)
 - [System 7 - Single Page Applications](./content/single-page-apps/system7.md)
-- [System 8 - Back End Development](./content/back-end-devop/system8.md)
+- [System 8 - Back End Developmen t](./content/back-end-devop/system8.md)
 - [System 9 - Server Side State Management](./content/server-state-mgmt/system9.md)
 - [System 10 - Collaborative Development](./content/collab-devop/system10.md)
 - [System 11 - DevOps & Deployment](./content/devops-and-deployment/system11.md)
