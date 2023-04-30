@@ -1,6 +1,6 @@
 # BrainStation Study Notes
 
-Journal of notes during the journey to become a software developer in the BrainStation Software Engineering Program 2023.
+Hello, welcome to the page. My name is Armon and I am a dedicated and eager professional trying to break into the tech industry. The repo before you serves as a journal of notes during my journey to become a software developer in the [BrainStation](https://brainstation.io/) Software Engineering Program 2023.
 
 ## A little about me...
 
@@ -9,7 +9,7 @@ Journal of notes during the journey to become a software developer in the BrainS
 - **Background:** Biology and Biospecimen Donation
 - **Link to my** [GitHub](https://github.com/armonluck)
 
-#### Table of Contents: 
+### Table of Contents:
 
 - [System 1 - Foundations I](./content/foundations-1/system1.md)
 - [System 2 - Foundations II](./content/foundations-2/system2.md)
