@@ -18,7 +18,7 @@
 
 ### Features of React
 
-- **Components**: centered around resuable UI components
+- **Components**: centered around reusable UI components
 - **State Management**: structured approach to managing application data
 - **DOM Management**: we (developers) declare how we want it to look and React updates the DOM for us
 - **Flexible**: used on web or mobile
@@ -49,7 +49,7 @@
 ### Chunking a Design Into Components
 
 - A designer hands us a design mockup
-- Slice up hte design into UI components
+- Slice up the design into UI components
 - Define each component
 - Build/Compose each UI screen using the components we defined
 - *Note how smaller components come together to form larger components*
@@ -70,6 +70,7 @@
 - There are 2 main steps to using components
   1. Define a component
   2. Use instances of that component
+
 - Similar to functions - define a component once and reuse an unlimited number of times
 
 ### Component Definitions
@@ -96,7 +97,7 @@
 
 - `create-react-app` is a scaffolding tool to easily set up new React projects
 - Exists in Node as an npm package
-- Created by Facebook to imrpove the developer experience
+- Created by Facebook to improve the developer experience
 - Also has a [great user guide](https://create-react-app.dev/docs/getting-started/)
 
 ### Node Overview
@@ -111,7 +112,51 @@
 
 ### What is npm?
 
+![npm](https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/1200px-Npm-logo.svg.png)
+
 - **Node Pack Manager**
 - Node's functionality is extended by libraries
 - npm is a repository (repo) of Node libraries
 - Provides a command line interface for installing libraries
+
+### Managing Dependencies with package.json
+
+- `create-react-app` can be started using:
+  - `$ npm start`
+- A file called `package.json` holds info about ALL libraries required for the project
+- Install additional package dependencies
+  - Installing packages locally:
+    - `$ npm install <package-name>`
+
+### `create-react-app`: Behind the Scenes
+
+- `create-react-app` is a package that will quickly scaffold a React project for you
+- When initializing a project using `create-react-app`, a git repo is initialized for you (no need to run a `git init`)
+- `create-react-app` also generates a `.gitignore` file for you in the root directory of the project
+- Directories and files listed in the `.gitignore` file will not be tracked by version control
+
+- The React project that was scaffolded by `create-react-app` contains some starter directories and files
+- `create-react-app` comes pre-packaged with a package manager, **npm** by default or **yarn** if you have installed it globally
+- Use npm as a package manager in a project scaffolded using `create-react-app`, delete the `yarn.lock` file if you see it in your folder
+
+## My First Component
+
+- `npx create-react-app my-first-app`
+- In `index.js` of the project src folder, paste in the code to the right
+- Run `npm start` from inside your project directory, where the package.json file is
+- We just created a class based component
+
+### Class Based Component
+
+- A class component must have 2 things to work properly:
+  1. Must extend the Component class within the React library
+    `class App extends React.Component`
+  2. Must return JSX inside of a render method
+
+- By extending the Component class, we hve access to many predefined methods and properties
+
+### Functional Component
+
+- Essentially, just a JS function
+- In order to be a component, the function must return JSX
+- Both examples are valid functional components
