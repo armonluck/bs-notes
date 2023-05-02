@@ -1,4 +1,6 @@
-# Table of Contents
+# React
+
+## Table of Contents
 
 - [01 - Intro to React & JSX](./intro-react-jsx.md)
 - [02 - React Props](./react-props.md)

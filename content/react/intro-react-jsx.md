@@ -1,9 +1,8 @@
-# Unit 3 Kickoff on May 2nd, 2023
+# Intro to [React](./system6.md)
 
-## Intro to React
 ![React icon](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png)
 
-### What is React?
+## What is React?
 
 - React is a JavaScript library for creating user interfaces (UI)
 - Based around the idea of reusable components and providing data to them
@@ -41,7 +40,7 @@
   - React devtools chrome extension
   - Instructive error messages
 
-### Building Apps in React
+## Building Apps in React
 
 - Focus on building a library of UI components, rather than a set of web pages
 - Developers define components that are small (but complete) sections of UI
@@ -55,7 +54,9 @@
 - Build/Compose each UI screen using the components we defined
 - *Note how smaller components come together to form larger components*
 
-### Creating React Components
+## Creating React Components
+
+### React Thinks in Components
 
 - In React, components are the building blocks of the interface
 - Each component is a piece of UI that is:
@@ -74,13 +75,43 @@
 ### Component Definitions
 
 - Components can be defined as classes or functions
-- All components must return some part of the U
-
-    function HelloMessage() {
-        return (
-            <div>Hello World!</div>
-         )
-    }
-
+- All components must return some part of the UI
 - Component definitions are like blueprints for that component
 - All component definitions must be capitalized
+
+### Using & Reusing Components
+
+- Using a component as a blueprint, we can create unlimited **instances** of that component
+  - e.g. we can have many chairs built from the same blueprint
+- We *instantiate* a component using HTML-like syntax
+  - `<HelloMessage />`
+
+### Rendering Components to the Page
+
+- We do **NOT** need to call `render()` for each component in our app
+- Typically, the app will hae one top-level component that is built from all the smaller components that make up our app
+- We only need to call `render()` once, to put that top-level component on the page
+
+## `create-react-app`
+
+- `create-react-app` is a scaffolding tool to easily set up new React projects
+- Exists in Node as an npm package
+- Created by Facebook to imrpove the developer experience
+- Also has a [great user guide](https://create-react-app.dev/docs/getting-started/)
+
+### Node Overview
+
+![Node.js](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png)
+
+- Node is a program that allows us to run JavaScript outside of a browser
+- Built on Google's Open Source V8 JavaScript engine: written in C++, used in Google Chrome
+- The V8 engine is an "interpreter" that executes JavaScript code
+- Node lets us run JavaScript in a terminal
+- Node introduces the possibility of using one language for the full stack
+
+### What is npm?
+
+- **Node Pack Manager**
+- Node's functionality is extended by libraries
+- npm is a repository (repo) of Node libraries
+- Provides a command line interface for installing libraries
