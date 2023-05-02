@@ -7,7 +7,8 @@
 - React is a JavaScript library for creating user interfaces (UI)
 - Based around the idea of reusable components and providing data to them
 - Created by Facebook (aka Meta)
-- There are many libraries similar to React, but React is currently the most popular in the industry
+- There are many libraries similar to React, but React is currently the most popular in the industry.
+  - *May later see View and Angular*
 
 ### Where does React fit?
 
@@ -18,23 +19,24 @@
 
 ### Features of React
 
-- **Components**: centered around reusable UI components
+- **Components**: centered around reusable UI components (hero banners, lists, cards, etc.)
 - **State Management**: structured approach to managing application data
 - **DOM Management**: we (developers) declare how we want it to look and React updates the DOM for us
 - **Flexible**: used on web or mobile
 
 ### Why use React?
 
-- Developing in React requires a shift in mindset, yet it has ~15 million npm downloads weekly in the last month (as of March 2022)
+- Developing in React requires a shift in mindset, yet it has ~15 million npm (node package manager) downloads weekly in the last month (as of March 2022)
 - Structuring code in encapsulated **components** increases:
   - Reusability
   - Modularity
   - the ability to unit test our UI
 - React is **fast**
+  - *spoiler* due to the VDOM (Virtual DOM)
 - React is ***flexible***:
   - Renders client or server-side
   - Used on web or mobile
-  - Made so that incremental adoption is possible
+  - Made so that incremental adoption is possible (you can pick and choose what you want to add to your application)
 - React has good **tooling**
   - `create-react-app` scaffolding
   - React devtools chrome extension
@@ -102,8 +104,6 @@
 
 ### Node Overview
 
-![Node.js](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png)
-
 - Node is a program that allows us to run JavaScript outside of a browser
 - Built on Google's Open Source V8 JavaScript engine: written in C++, used in Google Chrome
 - The V8 engine is an "interpreter" that executes JavaScript code
@@ -111,8 +111,6 @@
 - Node introduces the possibility of using one language for the full stack
 
 ### What is npm?
-
-![npm](https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/1200px-Npm-logo.svg.png)
 
 - **Node Pack Manager**
 - Node's functionality is extended by libraries
