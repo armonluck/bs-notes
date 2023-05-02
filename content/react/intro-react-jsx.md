@@ -2,6 +2,8 @@
 
 ![React icon](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png)
 
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" width="50%" height="50%">
+
 ## What is React?
 
 - React is a JavaScript library for creating user interfaces (UI)
