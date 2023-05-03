@@ -45,6 +45,9 @@
 ## Building Apps in React
 
 - Focus on building a library of UI components, rather than a set of web pages
+
+  > React uses a single page of HTML, but can feel like a multi-page website through *routing*
+
 - Developers define components that are small (but complete) sections of UI
 - Once defined, we wire these components together to build hierarchically larger interfaces
 
@@ -94,6 +97,7 @@
 - We do **NOT** need to call `render()` for each component in our app
 - Typically, the app will hae one top-level component that is built from all the smaller components that make up our app
 - We only need to call `render()` once, to put that top-level component on the page
+- 
 
 ## `create-react-app`
 
@@ -104,7 +108,7 @@
 
 ### Node Overview
 
-- Node is a program that allows us to run JavaScript outside of a browser
+- Node is a program that allows us to run JavaScript outside of a web browser
 - Built on Google's Open Source V8 JavaScript engine: written in C++, used in Google Chrome
 - The V8 engine is an "interpreter" that executes JavaScript code
 - Node lets us run JavaScript in a terminal
@@ -112,7 +116,7 @@
 
 ### What is npm?
 
-- **Node Pack Manager**
+- **N**ode **P**ack **M**anager
 - Node's functionality is extended by libraries
 - npm is a repository (repo) of Node libraries
 - Provides a command line interface for installing libraries
@@ -120,15 +124,15 @@
 ### Managing Dependencies with package.json
 
 - `create-react-app` can be started using:
-  - `$ npm start`
+    `$ npm start`
 - A file called `package.json` holds info about ALL libraries required for the project
 - Install additional package dependencies
   - Installing packages locally:
-    - `$ npm install <package-name>`
+    `$ npm install <package-name>`
 
 ### `create-react-app`: Behind the Scenes
 
-- `create-react-app` is a package that will quickly scaffold a React project for you
+- `create-react-app` is a package that will quickly scaffold (build initial files, structure, or starting point for the application) a React project for you
 - When initializing a project using `create-react-app`, a git repo is initialized for you (no need to run a `git init`)
 - `create-react-app` also generates a `.gitignore` file for you in the root directory of the project
 - Directories and files listed in the `.gitignore` file will not be tracked by version control
