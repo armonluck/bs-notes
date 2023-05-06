@@ -170,3 +170,33 @@
 ***
 
 ## JSX & The Virtual DOM
+
+### The Virtual DOM
+
+- React holds a virtual representation of the DOM in memory
+- Virtual means a tree of JS objects that represent the "Actual DOM" that a viewer sees in the browser
+- when React is used to modify components, we are modifying the virtual DOM, not the "Actual DOM"
+- React then compares the Virtual DOM and the Actual DOM and then changes only the elements that need to be updated, leaving the rest alone
+
+- Modifying the DOM directly is a costly operation, degrading the performance of the application
+- Keeping the stated in the DOM leads to confusion
+
+### React Elements
+
+- Virtual DOM is a tree of *ReactElements*
+  - these are just Plain Old JavaScript Objects (POJOs)
+- Each element in the virtual DOM is represented by a corresponding element on the page
+
+### JSX
+
+JSX is a syntax extension to js that allows JavaScript and HTML to be mixed. It looks like a **templating language** but has full power of JS.
+
+- JSX is used to describe what our components should look like
+- Commonly used in a functional components' return statement
+- JSX requires preprocessing to convert to standard JavaScript the browser understands
+  - A browser cannot directly understand JSX
+
+props = properties 
+E.g. an `<a>` tag can have attributes/properties such as `id=""`, `class=""`, `href=""`, `onclick=""`, etc.
+
+`React.createElement('a', { id: "", className: "red-anchor", href: "https://www.google.com", onClick: callAFunction});`
