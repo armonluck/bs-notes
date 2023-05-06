@@ -167,8 +167,6 @@
 
 ***
 
-***
-
 ## JSX & The Virtual DOM
 
 ### The Virtual DOM
