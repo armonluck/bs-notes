@@ -97,7 +97,7 @@
 - We do **NOT** need to call `render()` for each component in our app
 - Typically, the app will hae one top-level component that is built from all the smaller components that make up our app
 - We only need to call `render()` once, to put that top-level component on the page
-- 
+-
 
 ## `create-react-app`
 
@@ -162,3 +162,11 @@
 - Essentially, just a JS function
 - In order to be a component, the function must return JSX
 - Both examples are valid functional components
+
+***
+
+***
+
+***
+
+## JSX & The Virtual DOM
