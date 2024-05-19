@@ -5,13 +5,13 @@ Hello, welcome to the page. My name is Armon and I am a dedicated and eager prof
 ## A little about me...
 
 - **Name:** Armon Luckenbach (he/him)
-- **Location:** Philadelphia, PA.
+- **Location:** PA / NJ / NY
 - **Background:** Biology and Biospecimen Donation
 - **Link to my** [GitHub](https://github.com/armonluck)
 
 ## Program Roadmap
 
-1. 
+1.
 
 ### Table of Contents:
 
