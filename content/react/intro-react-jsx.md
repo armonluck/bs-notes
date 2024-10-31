@@ -14,7 +14,7 @@
 
 #### Where does React fit?
 
-- React is **great** for creating complex, rich, dynamic user interfaces for web applications
+- React is ***great*** for creating complex, rich, dynamic user interfaces for web applications
 - These interfaces can:
   - Display changing data to the user
   - Respond to user inputs and actions
@@ -34,7 +34,7 @@
   - Modularity
   - the ability to unit test our UI
 - React is **fast**
-  - *spoiler* due to the VDOM (Virtual DOM)
+  - \*spoiler* due to the VDOM (Virtual DOM)
 - React is ***flexible***:
   - Renders client or server-side
   - Used on web or mobile
